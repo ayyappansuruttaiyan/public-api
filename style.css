@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+body {
+  font-family: inherit;
+}
+
+.container-fluid {
+  margin: 1rem;
+  padding: 0;
+  border: 4px solid black;
+}
+
+.card {
+  background-color: rgb(154, 242, 236);
+  color: black;
+  box-shadow: 3px 2px;
+  margin-top: 30px;
+}
+
+h2 {
+  margin: 0;
+  padding: 1rem;
+  width: 100%;
+  background-color: rgb(57, 103, 241);
+  color: white;
+  font-size: 2rem;
+}
+.strong {
+  font-size: 1rem;
+  font-weight: 400;
+}
+.padding {
+  padding: 1rem;
+}
+p {
+  font-size: 1rem;
+}
